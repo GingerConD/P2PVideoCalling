@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P2PVideoCalling"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Show Broadcast" Height="350" Width="525" >
     <Grid>
-        
+        <MediaElement Name="VideoControl" Source="http://localhost:5001" />
     </Grid>
 </Window>
